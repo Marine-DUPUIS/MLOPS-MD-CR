@@ -1,17 +1,10 @@
-import sys
-import io
-
-# Forcer l'encodage utf-8 pour l'entrée/sortie
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8')
-
 import streamlit as st
 import mlflow
 import mlflow.sklearn
 import numpy as np
 
 # Chargement du modèle
-model_path = 'C:/Users/marin/Downloads/essai/mlruns/638687169010702785/995eb707735e49359209e068d61c8f80/artifacts/modele_regression_logistique'
+model_path = "C:\Users\marin\mlops_project\mlruns\223596845888242536\576eb8c696f94a28b7511c8b908b8f64\artifacts\modele_regression_logistique"
 model = mlflow.sklearn.load_model(model_path)
 
 st.title("Application - prédiction du risque de défaut de crédit")
