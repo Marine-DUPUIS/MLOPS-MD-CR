@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/marin/mlops_project/mlruns/223596845888242536/576eb8c696f94a28b7511c8b908b8f64/artifacts
+end_time: 1726127478109
+entry_point_name: ''
+experiment_id: '223596845888242536'
+lifecycle_stage: active
+run_id: 576eb8c696f94a28b7511c8b908b8f64
+run_name: Modèle de Régression Logistique
+run_uuid: 576eb8c696f94a28b7511c8b908b8f64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726127468076
+status: 3
+tags: []
+user_id: marin

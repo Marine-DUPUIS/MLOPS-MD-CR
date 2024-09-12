@@ -1,0 +1,6 @@
+artifact_location: file:///c:/Users/marin/mlops_project/mlruns/223596845888242536
+creation_time: 1726127466693
+experiment_id: '223596845888242536'
+last_update_time: 1726127466693
+lifecycle_stage: active
+name: prediction_defaut_credit_regression_logistique

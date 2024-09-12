@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/marin/mlops_project/mlruns/230169030988715614/9b3f21fedc5f47c6ae4045f0ce76892b/artifacts
+end_time: 1726127550306
+entry_point_name: ''
+experiment_id: '230169030988715614'
+lifecycle_stage: active
+run_id: 9b3f21fedc5f47c6ae4045f0ce76892b
+run_name: Random Forest Model
+run_uuid: 9b3f21fedc5f47c6ae4045f0ce76892b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726127545651
+status: 3
+tags: []
+user_id: marin

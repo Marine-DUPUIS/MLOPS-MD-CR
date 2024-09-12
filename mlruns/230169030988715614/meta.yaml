@@ -1,0 +1,6 @@
+artifact_location: file:///c:/Users/marin/mlops_project/mlruns/230169030988715614
+creation_time: 1726127545619
+experiment_id: '230169030988715614'
+last_update_time: 1726127545619
+lifecycle_stage: active
+name: credit_default_prediction
