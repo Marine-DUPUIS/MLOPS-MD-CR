@@ -1,3 +1,10 @@
+import sys
+import io
+
+# Forcer l'encodage utf-8 pour l'entrée/sortie
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8')
+
 import streamlit as st
 import mlflow
 import mlflow.sklearn
