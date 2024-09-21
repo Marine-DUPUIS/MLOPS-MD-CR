@@ -4,7 +4,7 @@ import mlflow.sklearn
 import numpy as np
 
 # Chargement du modèle
-model_uri = "models:/RL MLOPS/Production"
+model_uri = 'runs:/a93938c195e648719c4e3a42a21565d7/modele_regression_logistique'
 model = mlflow.sklearn.load_model(model_uri)
 
 st.title("Application - prédiction du risque de défaut de crédit")
