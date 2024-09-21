@@ -4,8 +4,8 @@ import mlflow.sklearn
 import numpy as np
 
 # Chargement du modèle
-model_path = "C:\Users\marin\mlops_project\mlruns\223596845888242536\576eb8c696f94a28b7511c8b908b8f64\artifacts\modele_regression_logistique"
-model = mlflow.sklearn.load_model(model_path)
+model_uri = 'runs:/a93938c195e648719c4e3a42a21565d7/modele_regression_logistique'
+model = mlflow.sklearn.load_model(model_uri)
 
 st.title("Application - prédiction du risque de défaut de crédit")
 
